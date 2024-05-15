@@ -1,0 +1,1 @@
+<view><youlan-sign-in vue-id="0a9b32a0-1" integral="{{integral}}" isIntegral="{{isIntegral}}" checkinDays="{{checkinDays}}" already="{{data}}" type="sign" lang="zh" data-event-opts="{{[['^change',[['signDate']]]]}}" bind:change="__e" bind:__l="__l"></youlan-sign-in></view>

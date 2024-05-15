@@ -1,0 +1,12 @@
+{
+  "navigationBarTitleText": "",
+  "navigationBarTextStyle": "black",
+  "navigationBarBackgroundColor": "#f1f8fa",
+  "enablePullDownRefresh": true,
+  "onReachBottomDistance": 50,
+  "usingComponents": {
+    "modal": "/components/modal/modal",
+    "popup-layer": "/components/popup-layer/popup-layer",
+    "uni-icons": "/uni_modules/uni-icons/components/uni-icons/uni-icons"
+  }
+}

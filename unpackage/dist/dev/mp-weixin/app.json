@@ -1,0 +1,63 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/menu/menu",
+    "pages/mine/mine",
+    "pages/login/login",
+    "pages/take-foods/take-foods",
+    "pages/pay/pay",
+    "pages/remark/remark",
+    "pages/orders/orders",
+    "pages/orders/detail",
+    "pages/mine/userinfo",
+    "pages/services/services",
+    "pages/services/contact/contact",
+    "pages/sign/sign",
+    "pages/position/position"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "#919293",
+    "selectedColor": "#2084ff",
+    "backgroundColor": "#fff",
+    "borderStyle": "black",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "static/icon/tabbar/index-default.png",
+        "selectedIconPath": "static/icon/tabbar/index-select.png"
+      },
+      {
+        "pagePath": "pages/menu/menu",
+        "text": "点单",
+        "iconPath": "static/icon/tabbar/menu-default.png",
+        "selectedIconPath": "static/icon/tabbar/menu-select.png"
+      },
+      {
+        "pagePath": "pages/take-foods/take-foods",
+        "text": "取货",
+        "iconPath": "static/icon/tabbar/receive-default.png",
+        "selectedIconPath": "static/icon/tabbar/receive-select.png"
+      },
+      {
+        "pagePath": "pages/mine/mine",
+        "text": "我的",
+        "iconPath": "static/icon/tabbar/mine-default.png",
+        "selectedIconPath": "static/icon/tabbar/mine-select.png"
+      }
+    ]
+  },
+  "permission": {
+    "scope.userLocation": {
+      "desc": ""
+    }
+  },
+  "usingComponents": {}
+}

@@ -1,0 +1,8 @@
+{
+  "navigationStyle": "custom",
+  "navigationBarTextStyle": "black",
+  "navigationBarBackgroundColor": "#f1f8fa",
+  "usingComponents": {
+    "uni-tag": "/uni_modules/uni-tag/components/uni-tag/uni-tag"
+  }
+}

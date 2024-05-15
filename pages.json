@@ -1,0 +1,158 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"enablePullDownRefresh": true,
+				// "navigationBarTitleText": "",
+				"navigationBarBackgroundColor": "#f1f8fa",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/menu/menu",
+			"style": {
+				"navigationBarTitleText": "",
+				"navigationBarTextStyle": "black",
+				"navigationBarBackgroundColor": "#f1f8fa",
+				"enablePullDownRefresh": true,
+				"onReachBottomDistance": 50
+			}
+		},
+		{
+			"path": "pages/mine/mine",
+			"style": {
+				// "navigationBarTitleText": "",
+				"navigationStyle": "custom",
+				"navigationBarTextStyle": "black",
+				"navigationBarBackgroundColor": "#f1f8fa"
+			}
+		},
+		{
+			"path": "pages/login/login",
+			"style": {
+				"navigationBarTitleText": "登录",
+				"navigationBarTextStyle": "black",
+				"navigationBarBackgroundColor": "#f1f8fa"
+			}
+		},
+		{
+			"path": "pages/take-foods/take-foods",
+			"style": {
+				"navigationBarTitleText": "",
+				// "navigationStyle": "custom",
+				"enablePullDownRefresh": true,
+				"onReachBottomDistance": 50
+			}
+		}, {
+			"path": "pages/pay/pay",
+			"style": {
+				"navigationBarTitleText": "",
+				"navigationBarTextStyle": "black",
+				"navigationBarBackgroundColor": "#f1f8fa"
+			}
+		}, {
+			"path": "pages/remark/remark",
+			"style": {
+				"navigationBarTitleText": "",
+				"navigationBarTextStyle": "black",
+				"navigationBarBackgroundColor": "#ffffff"
+			}
+		}, {
+			"path": "pages/orders/orders",
+			"style": {
+				"navigationBarTitleText": "",
+				"navigationBarTextStyle": "black",
+				"navigationBarBackgroundColor": "#f1f8fa"
+			}
+		}, {
+			"path": "pages/orders/detail",
+			"style": {
+				"navigationBarTitleText": "",
+				"navigationBarTextStyle": "black",
+				"navigationBarBackgroundColor": "#f1f8fa"
+			}
+		}, {
+			"path": "pages/mine/userinfo",
+			"style": {
+				"navigationBarTitleText": "",
+				"navigationBarTextStyle": "black",
+				"navigationBarBackgroundColor": "#f1f8fa"
+			}
+		}, {
+			"path": "pages/services/services",
+			"style": {
+				"navigationBarTitleText": "",
+				"navigationBarTextStyle": "black",
+				"navigationBarBackgroundColor": "#f1f8fa"
+			}
+		}, {
+			"path": "pages/services/contact/contact",
+			"style": {
+				"navigationBarTitleText": "",
+				"navigationBarTextStyle": "black",
+				"navigationBarBackgroundColor": "#f1f8fa"
+			}
+		}, {
+			"path": "pages/sign/sign",
+			"style": {
+				"navigationBarTitleText": "",
+				"navigationBarTextStyle": "black",
+				"navigationBarBackgroundColor": "#f1f8fa"
+			}
+		}, {
+			"path": "pages/position/position",
+			"style": {
+				"navigationBarTitleText": "",
+				"navigationBarTextStyle": "black",
+				"navigationBarBackgroundColor": "#f1f8fa"
+			}
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar": {
+		"color": "#919293",
+		"selectedColor": "#2084ff",
+		"backgroundColor": "#fff",
+		"borderStyle": "black",
+		"list": [{
+				"pagePath": "pages/index/index",
+				"text": "首页",
+				"iconPath": "static/icon/tabbar/index-default.png",
+				"selectedIconPath": "static/icon/tabbar/index-select.png"
+			},
+			{
+				"pagePath": "pages/menu/menu",
+				"text": "点单",
+				"iconPath": "static/icon/tabbar/menu-default.png",
+				"selectedIconPath": "static/icon/tabbar/menu-select.png"
+			}, {
+				"pagePath": "pages/take-foods/take-foods",
+				"text": "取货",
+				"iconPath": "static/icon/tabbar/receive-default.png",
+				"selectedIconPath": "static/icon/tabbar/receive-select.png"
+			}, {
+				"pagePath": "pages/mine/mine",
+				"text": "我的",
+				"iconPath": "static/icon/tabbar/mine-default.png",
+				"selectedIconPath": "static/icon/tabbar/mine-select.png"
+			}
+		]
+	},
+	"condition": { //模式配置，仅开发期间生效
+		"current": 0, //当前激活的模式(list 的索引项)
+		"list": [{
+			"name": "", //模式名称
+			"path": "", //启动页面，必选
+			"query": "" //启动参数，在页面的onLoad函数里面得到
+		}]
+	},
+	"navigateToMiniProgramAppIdList": [
+		"wx959c8c1fb2d877b5"
+	]
+}

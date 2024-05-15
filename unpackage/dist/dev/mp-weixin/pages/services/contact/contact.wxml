@@ -1,0 +1,1 @@
+<view><view style="width:100vw;padding:10px;"><view data-event-opts="{{[['tap',[['callPhone',['$event']]]]]}}" style="padding:10px 10px 0;" bindtap="__e">{{'联系电话: '+appProperties.phone}}</view><view data-event-opts="{{[['tap',[['setClipboardData',['$event']]]]]}}" style="padding:10px 10px 0;" bindtap="__e">{{'联系邮箱: '+appProperties.email}}</view></view></view>
